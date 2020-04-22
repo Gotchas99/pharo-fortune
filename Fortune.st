@@ -1,4 +1,4 @@
-'From Pharo8.0.0 of 22 January 2020 [Build information: Pharo-8.0.0+build.1124.sha.0932da82f08175e906b0e2a8052120c823374e9f (64 Bit)] on 22 April 2020 at 7:48:14.520519 am'!
+'From Pharo8.0.0 of 22 January 2020 [Build information: Pharo-8.0.0+build.1124.sha.0932da82f08175e906b0e2a8052120c823374e9f (64 Bit)] on 22 April 2020 at 10:53:53.050519 am'!
 Object subclass: #Fortune
 	instanceVariableNames: ''
 	classVariableNames: ''
@@ -8,12 +8,12 @@ Object subclass: #Fortune
 Fortune class
 	instanceVariableNames: ''!
 
-!Fortune class methodsFor: 'class initialization' stamp: 'ChristerAssmundsson 4/22/2020 07:47'!
+!Fortune class methodsFor: 'class initialization' stamp: 'ChristerAssmundsson 4/22/2020 08:21'!
 initialize
 	(Teapot configure: {(#port -> 80)})
-		GET: '/hi' -> 'Bonjour!';
+		GET: '/hi' -> 'Bonjour!!';
 		GET: '/' -> (Send message: #getFortune to: self);
-		start ! !
+		start! !
 
 
 !Fortune class methodsFor: 'action' stamp: 'ChristerAssmundsson 4/22/2020 07:47'!
