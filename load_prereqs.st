@@ -2,4 +2,4 @@ Metacello new
 	baseline: 'Teapot';
 	repository: 'github://zeroflag/teapot:master/source';
 	load.
-'Fortune.st' asFileReference fileIn.
+'scripts/Fortune.st' asFileReference fileIn.
