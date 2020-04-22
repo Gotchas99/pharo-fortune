@@ -1,5 +1,5 @@
 # pharo-fortune
-FROM gotchas/pharo-teapot7
+FROM gotchas/pharo-teapot8
 MAINTAINER Christer Assmundsson
 EXPOSE 80
 
