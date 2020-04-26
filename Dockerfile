@@ -1,6 +1,6 @@
 # pharo-fortune
 FROM gotchas/pharo-teapot8
-MAINTAINER Christer Assmundsson
+LABEL maintainer="christer@assmundsson.com"
 EXPOSE 80
 
 # Load prereqs from Github
